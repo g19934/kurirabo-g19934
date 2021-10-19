@@ -15,6 +15,29 @@
   // Model URL
   let imageModelURL = 'https://teachablemachine.withgoogle.com/models/EZtbF3hPu/';
   </script>
+    
+    <!-- PWA for iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="PublicDice" />
+    <link
+      rel="apple-touch-icon"
+      href="https://qurihara.github.io/publicdice/icon/ios/appicon-76@2x.png"
+    />
+    <!-- PWA for android -->
+    <link
+      rel="manifest"
+      href="https://qurihara.github.io/publicdice/manifest.json"
+    />
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("https://qurihara.github.io/publicdice/sw.js")
+          .then(reg => {
+            console.log("Service worker registered.", reg);
+          });
+      }
+    </script>
 
   </head>
   <body>
