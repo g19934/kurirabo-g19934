@@ -3,17 +3,17 @@
   "short_name": "PublicDice",
   "icons": [
     {
-      "src": "https://qurihara.github.io/publicdice/icon/android/drawable-xxxhdpi/ic_launcher.png",
+      "src": "https://g19934.github.io/kurirabo-g19934/icon.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://qurihara.github.io/publicdice/icon/android/playstore-icon.png",
+      "src": "https://g19934.github.io/kurirabo-g19934/icon.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
-  "start_url": "https://qurihara.github.io/publicdice/index.html?utm_source=homescreen",
+  "start_url": "https://g19934.github.io/kurirabo-g19934/index.html?utm_source=homescreen",
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#FFFFFF"
